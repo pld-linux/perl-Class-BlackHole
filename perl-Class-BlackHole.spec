@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	BlackHole
+%define		pdir	Class
+%define		pnam	BlackHole
 Summary:	Class::BlackHole - base class to treat unhandled method calls as no-ops
 Summary(pl):	Class::BlackHole - bazowa klasa do ignorowania nie obs³ugiwanych metod
 Name:		perl-Class-BlackHole
