@@ -9,7 +9,7 @@ Summary:	Class::BlackHole - base class to treat unhandled method calls as no-ops
 Summary(pl):	Class::BlackHole - bazowa klasa do ignorowania nie obs³ugiwanych metod
 Name:		perl-Class-BlackHole
 Version:	0.03
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
