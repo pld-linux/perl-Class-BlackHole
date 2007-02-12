@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	BlackHole
 Summary:	Class::BlackHole - base class to treat unhandled method calls as no-ops
-Summary(pl):	Class::BlackHole - bazowa klasa do ignorowania nie obs³ugiwanych metod
+Summary(pl.UTF-8):   Class::BlackHole - bazowa klasa do ignorowania nie obsÅ‚ugiwanych metod
 Name:		perl-Class-BlackHole
 Version:	0.04
 Release:	1
@@ -26,11 +26,11 @@ you get an error: Can't locate object method "flork" via package "X".
 But for classes that inherit from Class::BlackHole, unhandled methods
 become just no-operations.
 
-%description -l pl
-Normalnie próba wywo³ania metody, która nie ma przypisanego kodu,
-koñczy siê b³êdem: Can't locate object method "flork" via package "X".
-Ale w przypadku klas dziedzicz±cych z Class::BlackHole, nie
-obs³ugiwane metody s± po prostu pustymi operacjami.
+%description -l pl.UTF-8
+Normalnie prÃ³ba wywoÅ‚ania metody, ktÃ³ra nie ma przypisanego kodu,
+koÅ„czy siÄ™ bÅ‚Ä™dem: Can't locate object method "flork" via package "X".
+Ale w przypadku klas dziedziczÄ…cych z Class::BlackHole, nie
+obsÅ‚ugiwane metody sÄ… po prostu pustymi operacjami.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
