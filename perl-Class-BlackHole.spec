@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	BlackHole
 Summary:	Class::BlackHole - base class to treat unhandled method calls as no-ops
-Summary(pl.UTF-8):   Class::BlackHole - bazowa klasa do ignorowania nie obsługiwanych metod
+Summary(pl.UTF-8):	Class::BlackHole - bazowa klasa do ignorowania nie obsługiwanych metod
 Name:		perl-Class-BlackHole
 Version:	0.04
 Release:	1
