@@ -4,7 +4,6 @@
 
 %define		pdir	Class
 %define		pnam	BlackHole
-%include	/usr/lib/rpm/macros.perl
 Summary:	Class::BlackHole - base class to treat unhandled method calls as no-ops
 Summary(pl.UTF-8):	Class::BlackHole - bazowa klasa do ignorowania nie obsługiwanych metod
 Name:		perl-Class-BlackHole
